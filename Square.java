@@ -1,34 +1,8 @@
-// This program is copyright VUW.
-// You are granted permission to use it to construct your answer to a COMP103 assignment.
-// You may not distribute it in any other way without permission.
-
-/* Code for COMP103 - 2025T2, Assignment 3
- * Name:
- * Username:
- * ID:
- */
-
 import java.util.*;
 import ecs100.*;
 import java.awt.Color;
 import java.io.*;
 
-/** Represents information about one square in a MineSweeper map.
- *   It records
- *     its location (Row and Column)
- *     whether it has a mine or not
- *     how many squares around it have mines
- *     whether it is marked or unmarked
- *     whether it is hidden or exposed
- *   Its constructor must specify the location and
- *     whether it has a mine or not
- *   It has methods to 
- *     draw itself, (showing its state appropriately) given origin of the map.
- *     set the number of mines around it.
- *     report whether it has a mine and whether it is exposed
- *     change its state between marked and unmarked
- *     change its state to exposed
- */
 public class Square{
     // Fields
     private boolean mine;
@@ -132,3 +106,4 @@ public class Square{
     }
 
 }
+
