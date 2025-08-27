@@ -1,13 +1,3 @@
-// This program is copyright VUW.
-// You are granted permission to use it to construct your answer to a COMP103 assignment.
-// You may not distribute it in any other way without permission.
-
-/* Code for COMP103 - 2025T2, Assignment 3
- * Name: Matthew McGowan
- * Username:mcgowamatt1
- * ID:300672872
- */
-
 import ecs100.*;
 import java.awt.Color;
 import javax.swing.JButton;
@@ -16,20 +6,6 @@ import java.util.ArrayList;
 
 /**
  *  Simple 'Minesweeper' program.
- *  There is a grid of squares, some of which contain a mine.
- *  
- *  The user can click on a square to either expose it or to
- *  mark/unmark it.
- *  
- *  If the user exposes a square with a mine, they lose.
- *  Otherwise, it is uncovered, and shows a number which represents the
- *  number of mines in the eight squares surrounding that one.
- *  If there are no mines adjacent to it, then all the unexposed squares
- *  immediately adjacent to it are exposed (and so on)
- *
- *  If the user marks a square, then they cannot expose the square,
- *  (unless they unmark it first)
- *  When all the squares without mines are exposed, the user has won.
  */
 public class MineSweeper {
 
